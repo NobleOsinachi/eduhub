@@ -1,0 +1,304 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+/* Small devices (tablets, 768px and up) */
+/* Medium devices (desktops, 992px and up) */
+/* Large devices (large desktops, 1200px and up) */
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/*  (min-width:1200px)+++ */
+@media only screen and (max-width:1366px){
+	.irs-event-carousel .owl-nav{top: 65%;}
+ }
+@media only screen and (min-width:1200px){
+ }
+/* (min-width:992px) (max-width:1199px) */
+@media only screen and (max-width:1199px){
+	.irs-welcm-ht::before{display: none;}
+	.irs-welcm-ht{text-align: center;}
+	/* home responsibe style Start*/
+	.irs-main-slider .caption{padding: 8%;}
+	.irs-main-slider .irs-text-one{margin-top: 15px;}
+	.irs-main-slider .irs-text-three p{margin-top: 20px;}
+	.irs-home-btn{margin-top: 15px;}
+	/* home slider end */
+	/* home responsibe style 2 Start*/
+	.irs-main-slider-style2 .caption{padding: 8%;}
+	/* home slider end */
+	nav.navbar-default.bootsnav.irs-menu-style-one {left: 0%;}
+	.irs-commtmnt-column.style_one::after,.irs-commtmnt-column.style_one::before {display: none;}
+	.irs-register-counter {margin-bottom: 50px;}
+	.irs-edetails{padding: 15px 20px 40px;}
+	.irs-econtent-details{padding-left: 15px;}
+	.irs-event-carousel .owl-nav{left: 0;position: relative;top: 0;}
+	.irs-fg-overlay{bottom: 6%; width: 94.1%;}
+	.irs-whychoose-one h2{width: 35%;}
+	.irs-lc-title{width: 20%;}
+	.irs-gallery-title h2, .irs-ehe-title > h2{width: 21%;}
+	.irs-faq-title h2{width: 15%;}
+	.irs-faq-content{margin-bottom: 50px;}
+	.irs-ln-title > h2{width: 18%;}
+	.irs-fln-ttl{padding-left: 37%;}
+	.irs-testimonial-mtitle h2{width: 25%;}
+	.irs-bc-teacher-ttl h2{width: 40%;}
+	.irs-lc-grid {margin-bottom: 40px;}
+	.irs-lc-overlay{height: 50%;}
+	.irs-goverlay{width: 92%;}
+	img.logo{height: 37px;}
+	.irs-lnews{margin-top: 50px;}
+	.irs-goverlay{width: 100%;}
+	.irs-lc-grid.style2 .irs-lc-overlay{height: 48.9%}
+	.irs-footer.style2::after{width: 35%;}
+	.irs-courses-details-title{margin-bottom: 55px;}
+	.irs-footer.style2::after{width: 38%;}
+	.irs-ip-faq-ttl > h2{width: 40%;}
+}
+@media only screen and (max-width:1030px){
+	.irs-menu-style-two .navbar-brand {height: auto;}
+	.irs-feature-phoject-one{overflow-x: hidden;}
+	.irs-edetails{padding: 15px 10px 40px;}
+	.irs-register-form{margin-top: 50px;}
+}
+
+/* (min-width:768px) (max-width:991px) */
+@media only screen and (max-width:991px){
+	.irs-log-reg {float: none !important;text-align: center;}
+	.irs-ffact{margin-bottom: 60px;}
+	/* Home responsibe style Start*/
+	.irs-main-slider .caption{padding: 5% 8%; }
+	.irs-main-slider .irs-text-three{margin-top: 10px;}
+	.irs-main-slider .irs-text-one{margin-top: 5px;}
+	.irs-main-slider .irs-text-three p{margin-top: 10px;}
+	.irs-home-btn{margin-top: 15px;}
+	/* home slider end */
+	/* Home responsibe style Start*/
+	.irs-main-slider-style2 .caption{padding: 5% 8%; }
+	.irs-main-slider-style2 .irs-text-two{font-size: 48px;line-height: 48px;}
+	.irs-main-slider-style2 .irs-text-three{margin-top: 10px;}
+	.irs-main-slider-style2 .caption{padding: 8%;}
+	/* home slider end */
+	/* Navbar responsibe style Start*/
+	.header-nav { background: #313131 none repeat scroll 0 0; z-index: 9999;}
+	.navbar-brand .logo {height: 37px;margin-top: -5px;}
+	nav.navbar.bootsnav.irs-menu-style-one .navbar-toggle{background-color: transparent;color: #fff;}
+	nav.navbar.navbar-default.bootsnav.irs-menu-style-one {background: #313131 none repeat scroll 0 0;}
+	nav.navbar.bootsnav .navbar-header.irs-ltwo .navbar-toggle{background-color: transparent;color: #fff;}
+	nav.navbar.navbar-default.bootsnav .navbar-header.irs-ltwo {background: #27aa6f none repeat scroll 0 0;}
+	nav.navbar.bootsnav ul.nav li.dropdown ul.dropdown-menu > li > a{color: #fff;}
+	nav.navbar.bootsnav.irs-menu-style-one ul.nav > li > a{padding: 10px 15px;}
+	nav.navbar.bootsnav.irs-menu-style-one .dropdown ul li{padding: 10px 15px;}
+	/* Navbar responsibe style End*/
+	/* Courses */
+	.irs-courses-fstcol {margin-bottom: 50px;}
+	.irs-courses-one::after{display: none;}
+	.irs-commtmnt-column{margin-bottom: 30px;}
+	.irs-edetails.irs-ext-pad {padding: 75px 40px 80px;}
+	.irs-edetails.irs-ext-pad2 {padding: 15px 25px 40px;}
+	.irs-campus-thumb2 iframe{height: 350px;}
+	.irs-pricing-table {margin-bottom: 50px;}
+	.irs-pricing-table.style1, .irs-pricing-table.style2, .irs-pricing-table.style3{border: 2px solid #454545; }
+	.irs-testimonial{padding-bottom: 180px;}
+	.irs-nl-form input{width: 90%;}
+	.irs-fg-overlay{bottom: 7%;width: 93%;}
+	.irs-testimonial-thumb img{left: -75px;}
+	.irs-pl-fftn{padding-left: 15px;}
+	.irs-footer::before{display: none;}
+	.irs-clients-thumb{margin-bottom: 30px;}
+	.irs-wc-box.right-border::after{display: none;}
+	.irs-wc-box.right-border::before{display: none;}
+	.irs-lc-overlay{height: 54.5%;}
+	.irs-lc-details.style2{padding: 0 45px;}
+	.irs-pad-zero.style2{padding: 15px;}
+	.irs-whychoose-one h2{width: 40%;}
+	.irs-lc-title{width: 27%;}
+	.irs-faq-title h2{width: 20%;}
+	.irs-gallery-title h2, .irs-ehe-title > h2{width: 29%;}
+	.irs-ln-title > h2{width: 23%;}
+	.irs-testimonial-mtitle h2{width: 30%;}
+	.irs-ip-faq-ttl > h2{width: 50%;}
+	.irs-padl-zero{padding-left: 15px;}
+	.irs-lw-ttl.style2::after{display: none;}
+	.irs-lenws-date.text-center.style2{text-align: left;}
+	.irs-nl-details{margin-bottom: 40px;}
+	.irs-fln-ttl{padding-left: 25%;}
+	.irs-padr-zero.style2{padding-right: 15px;}
+	.irs-extraspce{margin-bottom: 50px !important;}
+	.irs-lc-grid.style2 .irs-lc-overlay{height: 73.5%}
+	.irs-lc-details.style2{padding: 0 15px;}
+	.irs-lc-grid.style2 .irs-lc-details{padding: 0 15px;}
+	.irs-extraspce.style2{margin-bottom: 25px !important;}
+	.irs-lc-grid.style2 .irs-lc-overlay{height: 57%;}
+	.irs-sblc-details{padding-left: 15%;}
+	.irs-bc-teacher-ttl h2{width: 50%;}
+	.irs-footer.style2::after{display: none;}	
+
+	.irs-main-slider .irs-text-one {font-size: 35px; line-height: 35px;}
+	.irs-main-slider .irs-text-three p {font-size: 20px;}
+	.irs-whychoose-one {padding-top: 15px}
+
+
+
+
+}
+
+@media only screen and (max-width:800px){
+}
+/* (min-width:480px) (max-width:767px) */
+@media only screen and (max-width:767px){
+	nav.navbar.irs-menu-style-one{padding-left: 15px;}
+	/* home slider start */
+	.irs-main-slider .irs-text-one{font-size: 30px;line-height: 30px;}
+	.irs-main-slider .owl-prev, .irs-main-slider .owl-next {display: none !important;}
+	.irs-main-slider .irs-text-three p{font-size: 12px;line-height: 16px;margin-top: 0;}
+	/* home slider end */
+	/* home slider 2 start */
+	/* home slider end */
+	.irs-commtmnt-column .irs-cmmt-icon{left: 4%;}
+	.irs-error{font-size: 140px;}
+	.irs-event-grid {margin-bottom: 50px;}
+	.irs-campus-thumb2 {margin-top: 50px;}
+	.irs-event{padding-bottom: 80px; padding-top: 80px;}
+	.irs-testimonial{padding-bottom: 100px;}
+	.irs-testimonial-grid,.irs-testimonial-grid2,.irs-testimonial-grid3{position: static;left: 0;margin: 0 auto; right: 0;}
+	.irs-fg-overlay{bottom: 2%;border-radius:15px; left: 2%;width: 96%;}
+	.irs-footer-contact-info{margin-top: 40px;}
+	.irs-testimonial-thumb img{left: -100px;}
+	.irs-mrgnt-two {margin-top: 20px;}
+	.irs-footer-gallery .irs-mrgnbot-fourty{padding-left: 15px;}
+	.irs-lc-overlay{display: none;}
+	.text-right.style2{text-align: left;}
+	.irs-whychoose-one h2{width: 40%;}
+	.irs-lc-title{width: 29%;}
+	.irs-ln-title > h2{width: 25%;}
+	.irs-testimonial-mtitle h2{width: 35%;}
+	.irs-goverlay a span{top: 45%;}
+	.irs-fln-ttl{padding-left: 14%;}
+
+	.irs-courses-one {padding-top: 20px;}
+	.pull-left {float: none !important;}
+	.irs-course-tab.nav-tabs li {float: none;}
+	.irs-table-body.style2 th {padding-left: 0px;}
+	.irs-table-body.style2 td {padding-left: 0px;}
+}
+@media only screen and (max-width:630px){
+	.irs-home-btn{margin-top: -3px;}
+	.irs-main-slider .irs-text-three p{margin-top: -10px;}
+	/* Main Slider Start*/
+	.irs-main-slider .caption{padding:2%;}
+	/* Main Slider End*/
+	/* Main Slider 2 Start*/
+
+	/* Main Slider End*/
+	.irs-flip-clock {display: none;}
+	.irs-whychoose-one h2{width: 47%;}
+	.irs-lc-title{width: 33%;}
+	.irs-faq-title h2{width: 24%;}
+	.irs-gallery-title h2, .irs-ehe-title > h2{width: 35%;}
+	.irs-ln-title > h2{width: 28%;}
+	.irs-fln-ttl{padding-left: 18%;}
+	.irs-testimonial-two .tab-content{padding: 5% 3% 5% 12%;}
+	.irs-testimonial-two .irs-tscoment{padding: 2%;}
+	.irs-tsc-quto{left: 0;}
+	.irs-testimonial-two .tab-content::after{bottom: -12%;left: 60%;}
+	.irs-cl-list{display: inline !important;}
+	.irs-cl-list .irs-cl-details{margin-bottom: 30px;margin-top: 20px;}
+	.irs-bc-teacher-ttl h2{width: 58%;}
+	.irs-ip-faq-ttl > h2{width: 60%;}
+
+}
+/* (min-width:361px) (max-width:479px) */
+@media only screen and (max-width:479px){
+	/* Main Slider Start*/
+	.irs-main-slider .irs-text-three {margin-top: 0;}
+	.irs-main-slider .irs-text-three p{margin-top: 0;}
+	.irs-home-btn{display: none;}
+	/* Main Slider End*/
+	/* Main Slider Start*/
+
+	/* Main Slider End*/
+	.irs-project-thumb-l2 .layer > h4{margin-top: 8%;}
+	.irs-frst-divider::after{display: none;}
+	.irs-event-carousel .owl-nav{top: -65%;}
+	.irs-fg-overlay{bottom: 3%;left: 3%;width: 94%;}
+	.irs-whychoose-one h2{width: 65%;}
+	.irs-lc-title{width: 45%;}
+	.irs-faq-title h2{width: 32%;}
+	.irs-gallery-title h2, .irs-ehe-title > h2{width: 48%;}
+	.irs-ln-title > h2{width: 40%;}
+	.irs-goverlay a span{top: 35%;}
+	.irs-ln-title > h2{width: 45%;}
+	.irs-testimonial-mtitle h2{width: 37%;}
+	.irs-fln-ttl{padding-left: 24%;}
+	.irs-testimonial-two .tab-content{padding: 5% 3% 5% 15%;}
+	.irs-sblc-details{padding-left: 20%;}
+	.irs-nav-search-form input{height: 34px;}
+	.irs-bc-teacher-ttl h2{width: 78%;}
+	.irs-ip-faq-ttl > h2{width: 80%;}
+
+	
+}
+@media only screen and (max-width:414px){
+	.irs-whychoose-one h2{width: 75%;}
+	.irs-lc-title{width: 52%;}
+	.irs-faq-title h2{width: 38%;}
+	.irs-gallery-title h2, .irs-ehe-title > h2{width: 55%;}
+	.irs-testimonial-mtitle h2{width: 55%;}
+	.irs-nav-search-form input{width: 70% !important}
+	.irs-bc-teacher-ttl h2{width: 92%;}
+	.irs-ip-faq-ttl > h2{width: 90%;}
+
+}
+@media only screen and (max-width:400px){
+	/* Main Slider Start*/
+	.irs-main-slider .caption{padding: 4%;}
+	.irs-main-slider .irs-text-one{font-size: 24px;}
+	.irs-main-slider .irs-text-three p{display: none;}
+	/* Main Slider End*/
+	/* Main Slider Start*/
+	.irs-whychoose-one h2{width: 82%;}
+	.irs-lc-title{width: 58%;}
+	.irs-faq-title h2{width: 42%;}
+	.irs-gallery-title h2, .irs-ehe-title > h2{width: 60%;}
+	.irs-ln-title > h2{width: 50%;}
+	.irs-testimonial-mtitle h2{width: 63%;}
+	
+	/* Main Slider End*/
+	.irs-log-reg{text-align: left;}
+	.irs-testimonial-two .tab-content{padding: 5% 1% 5% 20%;}
+	.irs-sblc-details{padding-left: 25%;}
+	.irs-nav-search-form input{width: 100% !important}
+	.irs-bc-teacher-ttl h2{width: 100%;}
+	.irs-ip-faq-ttl > h2{width: 100%;}
+
+}
+/* (min-width:341px) (max-width:360px) */
+@media only screen and (max-width:360px){
+	.irs-campus-overlayer{height: 72%;}
+	.irs-fg-overlay{bottom: 4%;width: 96%;}
+	.irs-fln-ttl{padding-left: 28%;}
+	.irs-testimonial-mtitle h2{width: 75%;}
+	.irs-nav-search-form input{height: 35px; margin-top: 10px;}
+	.irs-nav-search-form button{margin-top: 9px;}
+
+}
+/* (min-width:321px) (max-width:340px) */
+@media only screen and (max-width:340px){
+	.irs-campus-overlayer{height: 70%;}
+	.irs-fg-overlay{bottom: 5%;left: 4%;width: 92%;}
+	.irs-social-media-ttl{padding-right: 20px;}
+	.irs-sm-details ul li{margin-right: 10px;}
+}
+@media only screen and (max-width:320px){
+
+	.irs-price-area .irs-pricing-title{padding-right: 15%;}
+	/* Title list */
+	.irs-whychoose-one h2{width: 95%;}
+	.irs-lc-title{width: 68%;}
+	.irs-faq-title h2{width: 52%;}
+	.irs-gallery-title h2, .irs-ehe-title > h2{width: 70%;}
+	.irs-ln-title > h2{width: 60%;}
+
+}

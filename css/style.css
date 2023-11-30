@@ -1,0 +1,3144 @@
+@charset "utf-8";
+
+/*  Table of contents  */
+/*  CSS Document */
+/*  Basic Structure  */
+/*  HEADINGS FONT-SIZE  */ 
+/*  SCROLL TO TOP  */
+/*  PRELOADER */
+/*  HEADER TOP  */
+/*  NEW  HEADER  */
+/*  INNER HEADER  */
+/*  Main Slider */ 
+/*  FIRST COURSE SECTION */ 
+/*  EDUCATION COMMITMENT SECTION */ 
+/*  REGISTER SECTION */ 
+
+
+/* CSS Document */
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700);
+@import "font-awesome.min.css";
+@import "font-awesome-animation.min.css";
+@import "jquery-ui.min.css";
+@import "animate.css";
+@import "bootsnav.css";
+@import "owl.css";
+@import "isotop.css";
+@import "magnific-popup.css";
+@import "hover.css";
+@import "fancyBox.css";
+@import "flexslider.css";
+@import "flaticon.css";
+@import "animations.css";
+@import "swiper.min.css";
+@import "flipclock.css";
+
+/* ========== Basic Structure ========== */
+body {
+  background-attachment: fixed;
+  color: #313131;
+  font-size: 14px;
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: #ffffff;
+  overflow-x: hidden !important;
+  max-width: 100%;
+}
+img {
+  max-width: 100%;
+}
+p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+iframe {
+  border: none;
+  width: 100%;
+}
+a {
+  color: #808080;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #595959;
+  text-decoration: none;
+}
+a img {
+  border: none;
+}
+iframe {
+  border: none;
+}
+.irs-ext-pad {
+  padding-left: 10px;
+  padding-right: 10px; 
+}
+.irs-pad-zero{
+  padding: 0;
+}
+/* ========== HEADINGS FONT-SIZE ========== */ 
+h2,h3,h4,h5,h6  {
+  font-family: 'Roboto Condensed', sans-serif;
+  line-height: 1.42857143;
+  color: #000000;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.img-fluid {
+  width: 100%;
+}
+.text-thm1 {
+  color: #f8c12c !important;
+}
+.text-thm2 {
+  color: #eb553a !important;
+}
+.irs-btn-thm {
+  border-radius: 0px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.irs-btn-thm {
+  background-color: #f8c12c;
+  border-color: #f8c12c;
+  color: #fff;
+  padding: 10px 35px;
+}
+.irs-btn-thm:hover,
+.irs-btn-thm:active,
+.irs-btn-thm:focus {
+  background-color: #1e1e1e;
+  border-color: #1e1e1e;
+  color: #fff;
+}
+/* Style Two Button */
+.irs-btn-thm2 {
+  border-radius: 0px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.irs-btn-thm2 {
+  background-color: #eb553a;
+  border-color: #eb553a;
+  color: #fff;
+}
+.irs-btn-thm2:hover,
+.irs-btn-thm2:active,
+.irs-btn-thm2:focus {
+  background-color: #313131;
+  border-color: #313131;
+  color: #fff;
+}
+/* Style Three Button */
+.irs-btn-thm3 {
+  border-radius: 0px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.irs-btn-thm3 {
+  background-color: #f8c12c;
+  border-color: #f8c12c;
+  color: #fff;
+}
+.irs-btn-thm3:hover,
+.irs-btn-thm3:active,
+.irs-btn-thm3:focus {
+  background-color: #eb553a;
+  border-color: #eb553a;
+  color: #fff;
+}
+
+.irs-button-styledark {
+  background-color: #313131;
+  border-color: #313131;
+  color: #fff;
+  padding: 10px 35px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.irs-button-styledark:hover,
+.irs-button-styledark:active,
+.irs-button-styledark:focus {
+  background-color: #f8c12c;
+  border-color: #f8c12c;
+  color: #fff;  
+}
+.btn-default {
+  font-size: 14px;
+}
+/* ========== SECTION ========== */
+section {
+  position: relative;
+}
+
+/* ========== SCROLL TO TOP ========== */
+.scrollToTop {
+  background-color: #232323;
+  bottom: 2%;
+  color: #ffffff;
+  display: none;
+  font-size: 20px;
+  padding: 3px 10px;
+  position: fixed;
+  right: 2%;
+  text-align: center;
+  z-index: 99999;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.scrollToTop:hover {
+  color: #ffffff;
+  background-color: #f8c12c;
+}
+
+/* ========== PRELOADER ========== */
+.preloader {
+  background-color:#ffffff;
+  background-image:url(../images/preloader.gif);
+  background-position:center center;
+  background-repeat:no-repeat;
+  height:100%;
+  left:0px;
+  position:fixed;
+  top:0px;
+  width:100%;
+  z-index:999999;
+}
+/* ========== HEADER TOP ========== */
+  .irs-header-topped .irs-reg{
+    margin-right: 20px;
+  }
+  .irs-search{
+    margin-top: 8px;
+  }
+  .irs-search .input-group{
+    position: absolute !important;
+    top: 10px;
+  }
+  .irs-search input{
+    background-color: transparent;
+    border: medium none;
+    border-radius: 0 !important;
+    box-shadow: none;
+  }
+  .irs-search button {
+    background-color: transparent;
+    border: medium none;
+  }
+  .irs-search button:hover,
+  .irs-search button:active {
+    background-color: transparent;
+  }
+  .irs-search .form-control::-moz-placeholder {
+    color: #313131;
+  }
+  /* Login Form */
+  .irs-login-form{
+    background-color: #f6f6f6;
+    padding: 10px 30px 20px;
+    margin: 25px;
+  }
+  .irs-login-form .form-control {
+    background-color: #ebebeb;
+    box-shadow: none;
+    height: 40px;
+  }
+  .irs-login-form h3 span {
+    color: #ccc;
+    float: right;
+    font-size: 52px;
+  }
+  /* Registration form */
+  .irs-reg-form{
+    background-color: #f6f6f6;
+    padding: 10px 30px 20px;
+    margin: 15px;
+  }
+  .irs-reg-form .form-control {
+    background-color: #ebebeb;
+    box-shadow: none;
+    height: 40px;
+  }
+  .irs-reg-form h3 span {
+    color: #ccc;
+    float: right;
+    font-size: 52px;
+  }
+  .irs-log-reg {
+    margin-top: 8px;
+  }
+  .irs-log-reg li a{
+    color: #313131;
+    display: flex;
+    font-size: 16px;
+    line-height: 35px;
+  }
+  .irs-header-topped {
+    background: #f8be50 none repeat scroll 0 0;
+  }
+  .irs-header-topped.style2{
+    background-color: #efefef;
+  }
+  .irs-htpmz{
+    padding: 0;
+  }
+  .irs-welcm-ht {
+    position: relative;
+  }
+  .irs-welcntxt {
+    margin-top: 15px;
+    text-transform: capitalize;
+  }
+  /* social linked two */
+  .irs-social-linked-two{
+    position: relative;
+  }
+  .irs-social-linked-two li {
+    padding: 0;
+  }
+  .irs-social-linked-two a {
+    border-radius: 50%;
+    color: #fff;
+    font-size: 14px;
+    padding: 3px 9px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  .irs-social-linked-two a:hover {
+    background: #eb553a;
+  }
+  .irs-cell,
+  .irs-addrss {
+    color: #5e5e5e;
+  }
+  .header-nav {
+    left: 0;
+    position: absolute;
+    right: 0;
+  }
+  .header-nav.style2 {
+    position: relative;
+  }
+  .header-nav .main-header-nav.irs-menu-style-one{
+    background: #333333;
+  }
+  .header-nav .main-header-nav.irs-menu-style-two{
+    background: #fff;
+  }
+  .irs-factr-main-logo-two {
+    margin-top: 8px;
+  }
+  /* style two */
+  .main-header-nav-two {
+    background-color: #eb553a;
+  }
+/*=========== NEW  HEADER ==========*/
+  .irs-menu-style-one nav.navbar.navbar-default{
+    background-color: transparent;
+  }
+  nav.navbar.bootsnav.irs-menu-style-one{
+    border: none;
+  }
+  nav.navbar.bootsnav.yellow ul.nav > li > a{
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  nav.navbar.bootsnav.yellow ul.nav > li > a{
+    color: #fff;
+  }
+  .main-header-nav.scrollingto-fixed.style2{
+    background-color: #fff;
+  }
+  nav.navbar.bootsnav.irs-menu-style-two ul.nav > li > a{
+    color: #313131;
+  }
+  nav.navbar.bootsnav.yellow ul.nav > li > a.active,  
+  nav.navbar.bootsnav.yellow ul.nav > li > a:hover,
+  nav.navbar.bootsnav.yellow li.dropdown ul.dropdown-menu > li > a:hover,  
+  .attr-nav > ul > li > a {
+    color: #f8c12c;
+  }
+  nav.navbar.bootsnav.irs-menu-style-two ul.nav > li > a.active,  
+  nav.navbar.bootsnav.irs-menu-style-two ul.nav > li > a:hover,
+  nav.navbar.bootsnav.irs-menu-style-two li.dropdown ul.dropdown-menu > li > a:hover,  
+  .attr-nav > ul > li > a {
+    color: #313131;
+  }
+  nav.navbar.bootsnav.yellow li.dropdown ul.dropdown-menu > li > a {
+    color: #000;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  nav.navbar.bootsnav.yellow li.dropdown ul.dropdown-menu > li > a:hover{
+    padding-left: 20px;
+  }
+  nav.navbar.bootsnav ul.nav > li > a{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    outline: 30px 25px;
+    text-transform: uppercase;    
+  }
+  .dropdown li a{
+    color: #fff;
+  }
+  .irs-menu-style-one #navbar-menu {
+    background-color: transparent;
+  }
+  nav.navbar.bootsnav.irs-menu-style-two {
+    border: none;
+    position: relative;
+  }
+  nav.navbar.bootsnav.irs-menu-style-two #navbar-menu {
+    background-color: #fff;
+  }
+  nav.navbar.bootsnav.green ul.nav > li > a.active,  
+  nav.navbar.bootsnav.green ul.nav > li > a:hover,
+  nav.navbar.bootsnav.green li.dropdown ul.dropdown-menu > li > a:hover {
+    color: #1a724a;
+  }
+  nav.navbar.bootsnav li.dropdown ul.dropdown-menu {
+    border: none;
+  }
+  nav.navbar.bootsnav li.dropdown ul.dropdown-menu > li > a {
+    color: #333;
+  }
+  .attr-nav > ul > li > a{
+    color: #fff;
+  }
+
+/*=========== INNER HEADER ==========*/
+  .irs-home-slider{
+    position: relative;
+    background: #fff;
+  }
+  .irs-home-two {
+    background-color: #eb553a;
+  }
+  .irs-main-slider .caption.three{
+    left: 0;
+    right: 0;
+  }
+/*=========== Main Slider ==========*/ 
+  .irs-main-slider {
+    position: relative;
+  }
+  .irs-main-slider .item::before {
+    background-color: rgba(0, 0, 0, 0.8);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  .irs-main-slider .caption {
+    padding: 12% 21%;
+    position: absolute;
+  }
+  .irs-main-slider .irs-text-one {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-top: 40px;
+  }
+  .irs-main-slider .irs-text-three p{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 35px;
+  }
+  .irs-home-btn {
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-top: 45px;
+  }
+/* Main Slider End */
+
+/* Main Slider Style 2 */
+
+/* Main Slider End */
+
+/*=========== FIRST COURSE SECTION ==========*/ 
+  .irs-courses-one {
+    padding-bottom: 120px;
+    padding-top: 110px;
+  }
+  .irs-courses-one::after {
+    background-color: #ededed;
+    content: "";
+    height: 1px;
+    position: absolute;
+    top: 21.8%;
+    width: 100%;
+    z-index: -1;
+  }
+  .irs-course-tab{
+    border: none;
+    margin-bottom: 45px;
+    position: relative;
+  }
+  .irs-course-tab .irs-course-title{
+    padding-left: 15px;
+  }
+  .irs-course-title > h3{
+    margin-top: 6px;
+  }
+  .irs-course-tab.nav-tabs li{
+    float: right;
+  }
+  .irs-course-tab.nav-tabs li a{
+    border: none;
+    color: #313131;
+    font-size: 18px;
+    line-height: 30px;
+    padding-bottom: 11px;
+  }
+  .irs-course-tab.nav-tabs li.hover a{
+    border-bottom: 1px solid #eb553a;
+  }
+  .irs-course-tab.nav-tabs li.active a,
+  .irs-course-tab.nav-tabs li.hover a,
+  .irs-course-tab.nav-tabs li.focus a {
+    border-bottom: 1px solid #eb553a;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #eb553a;
+  }
+  .irs-course-tab.nav > li > a:focus, 
+  .irs-course-tab.nav > li > a:hover {
+    background-color: transparent;
+
+  }
+  .irs-courses-fstcol {
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    position: relative;
+  }
+  .irs-courses-fstcol h3 a{
+    color: #313131;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  .irs-courses-fstcol:hover h3 a{
+    color: #eb553a;
+  } 
+  .irs-courses-fstcol .irs-ccomment{
+    margin-right: 25px;
+  }
+  .irs-courses-fstcol .irs-course-price{
+    font-weight: bold;
+    float: right;
+  }
+  .irs-courses-fstcol .irs-course-price a{
+    padding-right: 0px !important;
+  }
+  .irs-student-info{
+    margin-top: 20px;
+  }
+  .irs-course-details{
+    padding: 15px 30px;
+  }
+  .irs-course-details li a{
+    padding-right: 15px;
+  }
+  .irs-course-details h3 {
+    text-align: center;
+  }  
+  .irs-course-details ul {
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 10px;
+  }
+  .irs-studend-thumb > img {
+      left: 25px;
+      position: absolute;
+  }
+  .irs-student-name{
+    padding-left: 50px;
+    text-align: center;
+  }
+/*=========== EDUCATION COMMITMENT SECTION ==========*/
+  .irs-commitment-one {
+    background-color: #f3f3f3;
+    padding-bottom: 100px;
+    padding-top: 100px;
+  }
+  .irs-commitment-title{
+    margin-bottom: 75px;
+  }
+  .irs-cmmt-icon {
+    padding: 0px 10px;
+  }
+  .irs-commtmnt-column{
+    margin-bottom: 70px;
+    position: relative;
+  }
+  .irs-commtmnt-column.style_one::after{
+    background-color: #dedede;
+    bottom: 0;
+    content: "";
+    height: 364px;
+    position: absolute;
+    right: -15px;
+    top: -44%;
+    width: 1px;
+  }    
+  .irs-commtmnt-column.style_one::before {
+    background-color: #dedede;
+    bottom: -54%;
+    content: "";
+    height: 1px;
+    left: 10px;
+    position: absolute;
+    width: 201%;
+  }
+  .irs-commtmnt-column .irs-cmmt-icon {
+    color: #eb553a;
+    float: left;
+    font-size: 52px;
+    margin-top: -3px;
+  }
+  .irs-commtmnt-column:hover .irs-cmmt-details h3{
+    color: #eb553a;
+  }
+  .irs-cmmt-details {
+    padding-left: 20%;
+    padding-right: 50px;
+  }
+
+  .irs-commtmnt-column2{
+    margin-bottom: 70px;
+    position: relative;
+  }
+  .irs-commtmnt-column2 .irs-cmmt-icon {
+    color: #eb553a;
+    float: right;
+    font-size: 52px;
+    position: relative;
+  }
+  .irs-commtmnt-column2:hover .irs-cmmt-details2 h3{
+    color: #eb553a;
+  }
+  .irs-cmmt-details2 {
+    padding-right: 20%;
+    padding-left: 50px;
+  }
+
+  .irs-cmmt-details h3 {
+    color: #333;
+    font-size: 24px;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -ms-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+  }
+  .irs-cmmt-details > p {
+    color: #333;
+  }
+
+/*=========== REGISTER SECTION ==========*/
+  .irs-padzero {
+    padding: 0;
+  }
+  .irs-register{
+    background-image: url(../images/bg/register-bg.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 105px;
+    padding-top: 105px;
+  }
+  .irs-register::before {
+    background-color: rgba(0, 0, 0, 0.8);
+    bottom: 0;
+    content: "";
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+  }
+  .irs-register-counter h1,
+  .irs-register-counter p{
+    color: #fff;
+  }
+  .irs-register-counter p{
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .irs-register-form{
+    border-radius: 5px;
+  }
+  .irs-form-header {
+    background-color: #eb553a;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 20px 55px;
+    position: relative;
+  }
+  .irs-form-header h3 {
+    color: #fff;
+  }
+  .irs-re-icon {
+    color: #df462a;
+    left: 42px;
+    position: absolute;
+    top: 28px;
+  }
+  .irs-register-counter {
+    margin-top: 45px;
+  }
+  /* FLIP CLCK START */
+  .irs-flip-clock .flip-clock-wrapper ul li a div div.inn {
+    background-color: #f2ba4f;
+    text-shadow: none;
+    color: #313131;
+    font-weight: 300;
+  }
+  .irs-flip-clock .flip-clock-wrapper ul li a div.up::after{
+    background-color: rgba(248, 190, 80, 0.8);
+  }
+  .irs-flip-clock{
+    margin-top: 45px;
+  }
+  .irs-flip-clock .clock.flip-clock-wrapper{
+    margin-left: 0!important;
+  }
+  .irs-flip-clock .flip-clock-label{
+    color: #fff !important;
+    font-size: 16px;
+    margin-top: 135px;
+  }
+  .irs-flip-clock .flip-clock-dot {
+    background-color: #fff;
+  }
+  /* FLIP CLCK END */
+  .fz-extre-lagre{
+    font-size: 60px;
+  }
+  .irs-form {
+    background-color: #fff;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: none;
+    padding: 40px 30px;
+  }
+  .irs-form form input{
+    height: 45px;
+    margin-bottom: 20px;
+  }
+  .irs-form .btn{
+    font-size: 18px;
+  }
+  /* OUR EVENT SECTION STYLE */
+  .irs-event{
+    background-color: #f3f3f3;
+    padding-bottom: 130px;
+    padding-top: 150px;
+  }
+  .irs-event-grid{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px #eee;
+    position: relative;
+  }
+  .irs-event-grid:hover .irs-ettl h4 {
+    color: #eb553a;
+    cursor: pointer;
+  }
+  .irs-event-grid:hover .irs-evnticon{
+    background-color: #eb553a;
+    cursor: pointer;
+  }
+  .irs-edetails{
+    padding: 15px 35px 40px 20px;
+  }
+  .irs-event-title{
+    margin-bottom: 25px;
+  }.
+  .irs-event-title h2 {
+    line-height: 30px;
+  }
+  .irs-ettl h4 {
+    line-height: 30px;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -ms-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  .irs-epara > p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .irs-evnticon {
+    background: #f8be50 none repeat scroll 0 0;
+    border-radius: 50%;
+    bottom: -3%;
+    color: #fff;
+    font-size: 16px;
+    padding: 15px 18px;
+    position: absolute;
+    right: 15%;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -ms-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  .irs-evnticon span{
+    padding-right: 0 !important;
+  }
+  .irs-edate-time li a{
+    color: #313131;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .irs-edate-time > p {
+    font-size: 16px;
+    line-height: 29px;
+    margin-top: 15px;
+  }
+  .irs-edate-time span{
+    padding-right: 10px;
+  }
+  /* OWL CAROUSEL IRS EVENT SECTION */
+  .irs-edetails.irs-ext-pad{padding: 55px 20px 85px;}
+  .irs-event-carousel .item{
+    margin: 15px;
+  }
+  .irs-event-carousel .owl-nav{
+    left: -36.5%;
+    position: absolute;
+    top: 54%;
+  }
+  .irs-event-carousel .owl-nav .owl-prev,
+  .irs-event-carousel .owl-nav .owl-next{
+    background-color: #e0e0e0;
+    color: #313131;
+    font-size: 32px;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -ms-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  .irs-event-carousel .owl-nav .owl-prev:hover,
+  .irs-event-carousel .owl-nav .owl-next:hover {
+    background-color: #eb553a;
+    color: #fff;
+  }
+  /* CAMPUS SECTION */
+  .irs-campus {
+    padding-bottom: 120px;
+    padding-top: 120px;
+  }
+  .irs-mrgnt{
+    margin-top: 60px;
+  }
+  .irs-campus-thumb{
+    position: relative;
+    overflow: hidden;
+  }
+  .irs-campus-thumb p {
+    font-size: 15px;
+    line-height: 18px;
+    margin-top: 15px;
+  }
+  .irs-campus-overlayer{
+    text-align: center;
+  }
+  .irs-campus-overlayer span {
+    color: #fff;
+    font-size: 40px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 30%;
+  }
+  .irs-campus-overlayer {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    height: 74%;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    transform: scale(0);
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    -ms-transition: all 0.4s ease-in-out 0s;
+    -o-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+  }
+  .irs-campus-thumb:hover .irs-campus-overlayer {
+    transform: scale(1);
+  }
+  .swiper-pagination-bullet {
+    background: #f3f3f3 none repeat scroll 0 0;
+    border-radius: 8px;
+    display: inline-block;
+    height: 8px;
+    opacity: .9;
+    width: 100px;
+  }
+  .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 -2px;
+  }
+  .swiper-pagination-bullet-active{
+    background-color: #eb553a; 
+    z-index: 999;   
+  }
+  /* Vertical slider */
+  .swiper-wrapper{
+    margin-bottom: 50px;
+  }
+  .swiper-container {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .swiper-slide {    
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  /* PRICING TABLE */
+  .irs-pricing {
+    background-color: #313131;
+    padding-bottom: 120px;
+    padding-top: 120px;
+  }
+  .irs-color-white {
+    color: #fff;
+  }
+  .irs-pricing-table{
+    border: 2px solid #454545;
+    overflow: hidden;
+    padding-bottom: 45px;
+    padding-top: 40px;
+    position: relative;
+  }
+  .irs-pricing-table.style1{
+    border-right: none;
+  }
+  .irs-pricing-table.style2{
+    background-color: #454545;
+    border-left: none;
+    border-right: none;
+  }
+  .irs-pricing-table.style3 {
+    border-left: none;
+  }
+  .irs-pricing-table.style2  .irs-pricing-icon{
+    color: #313131;
+  }
+  .irs-pricing-table.style2 .irs-price-area{
+    background-color: #f8be50;
+  }
+  .irs-pricing-table.style2 .irs-pricing-title,
+  .irs-pricing-table.style2 .irs-price {
+    color: #313131;
+  }
+  .irs-pricing-header .irs-pricing-icon{
+    color: #454545;
+    font-size: 80px;
+  }
+  .irs-price-area {
+    background-color: #454545;
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+  .irs-price-area .irs-pricing-title {
+    color: #fff;
+    font-size: 18px;
+    line-height: 30px;
+    padding-right: 25%;
+  }
+  .irs-price-area .irs-price{
+    color: #f8be50;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .irs-pricing-footer{
+    padding-top: 20px;
+  }
+  .irs-pricing-footer ul > li {
+    color: #fff;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  .irs-pricing-footer ul > li del{
+    color: #a8a8a8;
+  }
+  .irs-pricing-btn {
+    background-color: transparent;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 30px;
+    margin-top: 30px;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    -ms-transition: all 0.4s ease-in-out 0s;
+    -o-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+  }
+  .irs-pricing-btn:hover {
+    background-color: #eb553a;
+    color: #fff;
+  }
+  .irs-pricing-table:hover {
+    cursor: pointer;
+  }
+  .irs-pricing-table:hover .irs-pricing-btn{
+    background-color: #eb553a;
+  }
+  .irs-pricing-tag {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 50%;
+    padding: 23px 27px;
+    position: absolute;
+    right: 2%;
+    top: 2%;
+  }
+  .irs-pricing-tag > p{
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 0;
+  }
+  /* BLOG SECTION STYLES */
+  .irs-blog {
+    padding-bottom: 120px;
+    padding-top: 120px;
+  }
+  .irs-bp-thumb{
+    overflow: hidden;
+    position: relative;
+  }
+  .irs-bp-details {
+    background-color: rgba(0,0,0, 0.4);
+    border-radius: 10px;
+    bottom: 0;
+    left: 14px;
+    padding: 30px 25px 30px 30px;
+    position: absolute;
+    right: 14px;
+    top: 0;
+  }
+  .irs-bp-details:hover {
+    background-color: rgba(0,0,0, 0.8);
+    cursor: pointer;
+  }
+  .irs-bp-details:hover .irs-bp-title{
+    color: #f8be50;
+  }
+  .irs-bp-ustudent > li a{
+    color: #f8be50;
+    font-size: 16px;
+    line-height: 30px;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -ms-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  .irs-bp-ustudent > li a:hover {
+    color: #fff;
+  }
+  .irs-bp-title{
+    color: #fff;
+    line-height: 30px;
+    margin-top: 36%;
+  }
+  .irs-bp-meta-dttime > li{
+    color: #fff;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .irs-blog-slider .item{
+    margin: 0 15px;
+  }
+  .irs-blog-slider .item .owl-theme .owl-dots, .owl-theme .owl-nav {
+    margin-top: 50px;
+  }
+  .irs-blog-slider .owl-dots .owl-dot span{
+    background-color: transparent;
+    border: 2px solid #eb553a;
+    margin: 6px;
+  }
+  .irs-blog-slider .owl-dots .owl-dot.active span, 
+  .irs-blog-slider .owl-dots .owl-dot:hover span{
+    background-color: #f8be50;
+  }
+/* OUR TESTIMONIALS SECTION */
+  .irs-testimonial{
+    padding-bottom: 210px;
+    padding-top: 190px;
+  }
+  .irs-testimonial {
+    background-image: url(../images/resource/testimonials-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .irs-testimonial::before {
+    background-color: rgba(255, 255, 255, 0.8);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  /* testimonials grid one */
+  .irs-testimonial-grid{
+    background-color: #fff;
+    border-radius: 5px;
+    bottom: -7px;
+    -webkit-box-shadow: 10px 0px 70px 3px rgba(0,0,0,0.2);
+    -moz-box-shadow: 10px 0px 70px 3px rgba(0,0,0,0.2);
+    box-shadow: 10px 0px 70px 3px rgba(0,0,0,0.2);
+    padding: 55px 35px 25px 65px;
+    position: absolute;
+    width: 70%;
+    z-index: 1;
+  }  
+  .irs-testi-quote {
+    position: absolute;
+    top: -29px;
+    background-color: #eb553a;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+  }
+  .irs-testi-quote p{
+    color: #fff;
+    font-size: 80px;
+    margin-top: 40px;
+    margin-left: 15px;  
+  }
+  .irs-testimonial-thumb {
+    position: relative;
+  }
+  .irs-testimonial-thumb img{
+    left: -100px;
+    position: absolute;
+  }
+  .irs-tm-details h4{
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .irs-tm-details h5{
+    font-style: italic;
+    margin-bottom: 15px;
+    margin-top: 0;
+  }
+  .irs-tm-details p {
+    color: #808080;
+    font-size: 18px;
+    line-height: 30px;
+    font-style: italic;
+  }
+  /* Testimonial grid two */
+  .irs-testimonial-grid2{
+    background-color: #fff;
+    border-radius: 5px;
+    -webkit-box-shadow: 10px 0px 70px 3px rgba(0,0,0,0.2);
+    -moz-box-shadow: 10px 0px 70px 3px rgba(0,0,0,0.2);
+    box-shadow: 10px 0px 70px 3px rgba(0,0,0,0.2);
+    padding: 60px 65px 40px 30px;
+    position: absolute;
+    right: 14%;
+    top: -53px;
+    width: 70%;
+    z-index: 0;
+  }
+  .irs-testimonial-thumb2 {
+    position: relative;
+  }
+  .irs-testimonial-thumb2 img{
+    right: -105px;
+    position: absolute;
+  }
+  .irs-tm-details2 h4{
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .irs-tm-details2 h5{
+    font-style: italic;
+    margin-bottom: 15px;
+    margin-top: 0;
+  }
+  .irs-tm-details2 p {
+    color: #808080;
+    font-size: 18px;
+    line-height: 30px;
+    font-style: italic;
+  }
+  /* testimonial grid three */
+
+   .irs-testimonial-grid3 {
+    background-color: #fff;
+    border-radius: 5px;
+    -webkit-box-shadow: 10px 0px 70px 3px rgba(0,0,0,0.2);
+    -moz-box-shadow: 10px 0px 70px 3px rgba(0,0,0,0.2);
+    box-shadow: 10px 0px 70px 3px rgba(0,0,0,0.2);
+    padding: 55px 35px 25px 65px;
+    position: absolute;
+    width: 70%;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 250px;
+  }
+  .irs-testimonial-thumb3 {
+    position: relative;
+  }
+  .irs-testimonial-thumb3 img{
+    left: -100px;
+    position: absolute;
+  }
+  .irs-tm-details3 h4{
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .irs-tm-details3 h5{
+    font-style: italic;
+    margin-bottom: 15px;
+    margin-top: 0;
+  }
+  .irs-tm-details3 p {
+    color: #808080;
+    font-size: 18px;
+    line-height: 30px;
+    font-style: italic;
+  }
+  .irs-tm-description .irs-tm-title{
+    margin-bottom: 25px;
+  }
+  .irs-tm-description p{
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 50px;
+  }
+  .irs-tm-qbtn {
+    border-radius: 3px;
+    color: #313131;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+  }
+  /* CLIENT SECTION STYLES */
+  .irs-client {
+    padding-bottom: 90px;
+    padding-top: 90px;
+  }
+  .irs-clients-thumb img {
+    opacity: 0.25;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -ms-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+  }
+  .irs-clients-thumb:hover img {
+    opacity: 1;
+    cursor: pointer;
+  }
+  /* NEWLETTER SUBSCRIBER FORM */
+  .irs-newsletter-subscribe{
+    background-color: #f8be50;
+    padding-bottom: 80px;
+    padding-top: 50px;
+  }
+  .irs-nl-form {
+    margin-top: 20px;
+  }
+  .irs-nl-form input{
+    border-radius: 30px 0 0 30px;
+    box-shadow: none;
+    color: #808080;
+    height: 45px;
+    padding-left: 20px;
+    width: 87%;
+  }
+  .irs-nl-form button {
+    background-color: #313131;
+    border-radius: 0 30px 30px 0;
+    color: #fff;
+    font-size: 30px;
+    margin-top: -45px;
+    padding: 0 22px;
+  }
+  .irs-nl-form button:hover {
+    background-color: #EB553A;
+    border-color: #EB553A;
+    color: #fff;
+  }
+  /* FOOTER STYLES */
+  .irs-footer::before {
+    background: #3b3b3b none repeat scroll 0 0;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 34%;
+    width: 100%;
+  }
+  .irs-footer.style2::before {
+    background-color: transparent;
+  }
+  .irs-footer.style2::after {
+    background-color: #272727;
+    content: "";
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 38%;
+    z-index: -1;
+  }
+  .irs-footer {
+    background-color: #313131;
+    padding-bottom: 70px;
+    padding-top: 70px;
+    z-index: 999999;
+    position: relative;
+  }
+  .irs-footer-social-icon {
+    margin-top: 20px;
+  }
+  .irs-footer-social-icon ul li a {
+    font-size: 18px;
+    border: 2px solid #4f4f4f;
+    border-radius: 50%;
+    margin-right: 5px;
+    display: block;
+    width: 52px;
+    height: 52px;
+    line-height: 52px;
+    text-align: center;
+  }
+  .irs-footer-contact-info h2,
+  .irs-footer-location-info h2 {
+    color: #fff;
+    margin-top: 0;
+  }
+  .irs-footer-contact-info h5,
+  .irs-footer-location-info h5{
+    color: #848484;
+    padding-left: 40px;
+  }
+  .irs-footer-contact-info .irs-fci-icon,
+  .irs-footer-location-info .irs-fci-icon{
+    color: #4f4f4f !important;
+  }
+  .irs-padl-zero{
+    padding-left: 0;
+  }
+  .irs-padr-zero{
+    padding-right: 0;
+  }
+  .irs-footer-useful-link h4,
+  .irs-footer-latest-course h4,
+  .irs-footer-gallery h4{
+    color: #fff;
+  }
+  .irs-footer-useful-link .media-heading,
+  .irs-footer-latest-course .media-heading {
+    color: #848484;
+  }
+  .irs-list-square li {
+    color: #848484;
+    list-style-type: square;
+    padding-left: 15px;
+    margin-left: 15px;
+  }
+  .irs-list-square.style2 li{
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .irs-list-square li:hover a {
+    color: #f8be50;
+  }
+  .irs-list-square li a {
+    font-size: 18px;
+    line-height: 40px;
+    color: #848484;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -ms-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+  }
+  .irs-mrgnt-two {
+    margin-top: 105px;
+  }
+  .irs-flnws-price {
+    font-size: 18px;
+    color: #fff;
+  }
+  .irs-fln-media-two{
+    padding-right: 10px;
+  }
+  .irs-flc-ttl:hover a{
+    color: #f8be50 !important;
+  }
+  .irs-mrgnbot-fourty{
+    margin-bottom: 40px;
+  }
+  .irs-footer-gallery-thumb img{
+    margin-bottom: 15px;
+    overflow: hidden;
+    position: relative;
+  }
+  .irs-fg-overlay {
+    background-color: rgba(248, 190, 80, 0.8);
+    border-radius: 5px;
+    bottom: 11%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform: scale(0);
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    -ms-transition: all 0.4s ease-in-out 0s;
+    -o-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+    width: 90%;
+    z-index: 1;
+  }
+  .irs-footer-gallery-thumb:hover .irs-fg-overlay{
+    transform: scale(1);
+  }
+
+  /* SECOND LAYOUT START */
+  .irs-whychoose-one{
+    padding-bottom: 100px;
+    padding-top: 100px;
+  }
+  .irs-wc-mtitle{
+    margin-bottom: 60px;
+  }
+  .irs-whychoose-one h2{
+    background-color: #f8be50;
+    margin: 0 auto;
+    width: 50%;
+  }
+  .irs-wc-box{
+    padding: 30px;
+    position: relative;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    -ms-transition: all 0.4s ease-in-out 0s;
+    -o-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+  }
+  .irs-wc-box:hover {
+    background-color: #f6f6f6;
+    cursor: pointer;
+  }
+  .irs-wc-box.right-border::after {
+    border-right: 1px solid #ececec;
+    content: "";
+    height: 200%;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .irs-wc-box.right-border::before {
+    border-bottom: 1px solid #ececec;
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    width: 200%;
+  }
+  .irs-wcb-icon span {
+    font-size: 72px;
+  }
+
+  /* LATEST COURSE 2ND LAYOUT */  
+  .irs-latest-course {
+    background-color: #f6f6f6;
+    padding-bottom: 70px;
+    padding-top: 100px;
+  }
+  .irs-lc-title {
+    background-color: #f8be50;
+    padding-left: 10px;
+    width: 34%;
+  }
+  .irs-lc-grid {
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+  }
+  .irs-lc-overlay {
+    background-color: rgba(248, 190, 80, 0.7);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    content: "";
+    height: 47%;
+    position: absolute;
+    top: 0;
+    transform: scale(0);
+    width: 100%;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    -ms-transition: all 0.4s ease-in-out 0s;
+    -o-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+  }
+  .irs-lc-grid:hover{
+    cursor: pointer;
+  }
+  .irs-lc-grid:hover .irs-lc-overlay{
+    transform: scale(1);
+  }
+  .irs-lc-price {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: rgba(0,0,0, .7);
+    padding: 0px 15px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .irs-lc-details{
+    position: relative;
+    padding: 0 40px;
+  }
+  .irs-lct-thumb {
+    left: 10px;
+    position: absolute;
+    top: -22px;
+  }
+  .irs-lct-info {
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 10px;
+  }
+  .irs-lc-details > h4 {
+    margin-bottom: 25px;
+    margin-top: 25px;
+  }
+  .irs-lc-details > h4:hover a {
+    text-decoration: underline;
+  }
+  .irs-lc-details > h4 a{
+    color: #313131;
+  }
+  .irs-lc-footer{
+    position: relative;
+  }
+  .irs-lc-normal-part {
+    background-color: #313131;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 5px;
+    opacity: 1;
+    position: absolute;
+    left: 0;
+    right: 0;
+    -webkit-transition: all 0.3s ease-in 0s;
+    -moz-transition: all 0.3s ease-in 0s;
+    -ms-transition: all 0.3s ease-in 0s;
+    -o-transition: all 0.3s ease-in 0s;
+    transition: all 0.3s ease-in 0s;
+  }
+  .irs-lc-normal-part .list-inline > li i {
+    color: #909090;
+  }
+  .irs-lc-normal-part .list-inline > li{
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .irs-lc-normal-part .list-inline > li a{
+    color: #fff;
+  }
+  .irs-lc-hover-part {
+    background-color: #eb553a;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 30px;
+    opacity: 0;
+    padding: 5px;
+    -webkit-transition: all 0.3s ease-in 0s;
+    -moz-transition: all 0.3s ease-in 0s;
+    -ms-transition: all 0.3s ease-in 0s;
+    -o-transition: all 0.3s ease-in 0s;
+    transition: all 0.3s ease-in 0s;
+  }
+  .irs-lc-grid:hover .irs-lc-normal-part{
+    background-color: #eb553a;
+    opacity: 0;
+  }
+  .irs-lc-grid:hover .irs-lc-hover-part{
+    opacity: 1;
+  }
+  .irs-lc-carousel .owl-prev,
+  .irs-lc-carousel .owl-next{
+    background-color: transparent !important;
+  }
+  .irs-latest-course .owl-nav .owl-prev:hover i,
+  .irs-latest-course .owl-nav .owl-next:hover i {
+    color: #313131;
+  }
+  .irs-latest-course .owl-nav i{
+    color: #d1d1d1;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  /* CALL TO ACTION */
+  .irs-call-to-action {
+    background-image: url(../images/bg/call-tobg.jpg);
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 70px;
+    padding-top: 70px;
+  }
+  .irs-call-to-action:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0, .7);
+    z-index: 0;
+  }
+  .irs-ca-title{
+    color: #fff;
+    font-size: 35px;
+    line-height: 60px;
+  }
+  .irs-ca-sub-title{
+    color: #fff;
+    font-size: 18px;
+  }
+  .irs-ca-button a.btn {
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 25px;
+    font-size: 18px;
+    margin-top: 25px;
+    -webkit-transition: all 0.3s ease-in 0s;
+    -moz-transition: all 0.3s ease-in 0s;
+    -ms-transition: all 0.3s ease-in 0s;
+    -o-transition: all 0.3s ease-in 0s;
+    transition: all 0.3s ease-in 0s;
+  }
+  .irs-ca-button:hover a.btn {
+    background-color: #eb553a;
+    border: 1px solid #eb553a;
+  }
+  /* FAQ'S SECTION */
+  .irs-faq-title,
+  .irs-gallery-title {
+    margin-bottom: 60px;
+  }
+  .irs-gallery-title h2{
+    background-color: #f8be50;
+    padding-left: 10px;
+    width: 35%;
+  }
+  .irs-faq-title h2{
+    background-color: #f8be50;
+    padding-left: 10px;
+    width: 25%;
+  }
+  .irs-padr-thrty{
+    padding-right: 30px;
+  }
+  .irs-faq-content .panel .panel-title a i,
+  .irs-faq-content .panel .panel-title a i {
+    background-color: #f8be50;
+    color: #ffffff;
+    height: 50px;
+    line-height: 50px;
+    margin-right: 10px;
+    text-align: center;
+    width: 50px;
+  }
+  .irs-faq-content .panel-default > .panel-heading:hover a {
+    color: #313131;
+  }
+  .irs-faq-content .panel-default > .panel-heading {
+    background-color: #f6f6f6;
+    border: medium none;
+    border-radius: 0;
+    color: #fff;
+    margin-bottom: 10px;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-top: 0;
+  }
+  .irs-faq-content .panel-default {
+    border: none;
+  }
+  .irs-faq-content .panel {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  .irs-faq-content .panel-title{
+    color: #313131;
+  }
+  .irs-faq-content .panel .panel-title a .icon-1 {
+    background-color: #eb553a;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    display: inline-block;
+    transform: rotate(90deg);
+  }
+  .irs-faq-content .panel .panel-title a.collapsed .icon-1 {
+    display: none;
+  }
+  .irs-faq-content .panel .panel-title a .icon-2 {
+    display: none;
+  }
+  .irs-faq-content .panel .panel-title a.collapsed .icon-2 {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    display: inline-block;
+    transform: rotate(0deg);
+  }
+  .irs-faq-content .panel-body {
+    background: transparent;
+    border: 1px solid #ededed;
+    border-radius: 5px;
+    padding: 20px 25px;
+  }
+  /* GALLERY SECTION */
+  .irs-gallery-one {
+    padding-bottom: 100px;
+    padding-top: 100px;
+  }
+  .irs-gallery-tumb{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 15px;
+  }
+  .irs-goverlay {
+    position: absolute;
+    height: 100%;
+    background-color: rgba(248,190,80, 0.8);
+    left: 0;
+    right: 0;
+    top: 0;
+    text-align: center;
+    border-radius: 5px;
+    transform: scale(0);
+    -webkit-transition: all 0.3s ease-in 0s;
+    -moz-transition: all 0.3s ease-in 0s;
+    -ms-transition: all 0.3s ease-in 0s;
+    -o-transition: all 0.3s ease-in 0s;
+    transition: all 0.3s ease-in 0s;
+    width: 100%;
+  }
+  .irs-gallery-tumb:hover .irs-goverlay{
+    transform: scale(1);
+  }
+  .irs-goverlay a span{
+    color: #fff;
+    font-size: 36px;
+  }
+  .irs-goverlay a span {
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 30%;
+  }
+  .irs-padr-zero{
+    padding-right: 0;
+  }
+  /* TESTIMONIAL SECOND LAYOUT */
+  .irs-testimonial2{
+    background-color: #f6f6f6;
+    padding-bottom: 100px;
+    padding-top: 100px;
+  }
+  .irs-testimonial-mtitle h2{
+    background-color: #f8be50;
+    margin: 0 auto;
+    width: 40%;
+  }
+
+  /* BLOG SECTION STYLE 2ND LAYOUT */
+  .irs-blog2 {
+    padding-bottom: 100px;
+    padding-top: 100px;
+  }
+  .irs-ehe-ttl{
+    padding-right: 30px;
+  }
+  .irs-ehe-title > h2{
+    background-color: #f8be50;
+    padding-left: 10px;
+    width: 35%;
+  }
+  .irs-ehe-ttl:hover > h4{
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  .irs-ehe-ttl > h4{
+    font-weight: 600;
+  }
+  .irs-mb-frty{
+    margin-bottom: 40px;
+  }
+  .irs-ehe-thumb{
+    position: relative;
+    overflow: hidden;
+  }
+  .irs-ehe-overlay {
+    position: absolute;
+    height: 100%;
+    background-color: rgba(248,190,80, 0.8);
+    left: 0;
+    right: 0;
+    top: 0;
+    text-align: center;
+    border-radius: 5px;
+    transform: scale(0);
+    -webkit-transition: all 0.3s ease-in 0s;
+    -moz-transition: all 0.3s ease-in 0s;
+    -ms-transition: all 0.3s ease-in 0s;
+    -o-transition: all 0.3s ease-in 0s;
+    transition: all 0.3s ease-in 0s;
+    width: 100%;
+  }
+  .irs-ehe-thumb:hover .irs-ehe-overlay{
+    transform: scale(1);
+  }
+  .irs-ehe-meta ul li a{
+    color: #313131;
+  }
+  .irs-lenws-date > p{
+    color: #919191;
+    font-size: 16px;
+    padding-top: 10px;
+  }
+  .irs-ln-title > h2{
+    background-color: #f8be50;
+    padding-left: 10px;
+    width: 30%;
+  }
+  .irs-lw-ttl{
+    position: relative;
+  }
+  .irs-lw-ttl.style2::after {
+    background-color: #ececec;
+    content: "";
+    height: 1px;
+    position: absolute;
+    top: -20px;
+    width: 100%;
+  }
+  .irs-lw-ttl:hover > h3{
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  .irs-lw-ttl > h3{
+    margin-top: 7px;
+  }
+  .irs-lw-meta ul li a{
+    color: #313131;
+  }
+
+  /* TESTIMONIAL SECOND LAYOUT STYLE */
+  .irs-testimonial2{
+    background-color: #f6f6f6;
+    padding-bottom: 100px;
+    padding-top: 100px;
+  }
+  .irs-testimonial-two .nav.nav-tabs{
+    border-bottom: none;
+  }
+  .irs-testimonial-two .nav-tabs > li.active > a, 
+  .irs-testimonial-two .nav-tabs > li.active > a:focus, 
+  .irs-testimonial-two .nav-tabs > li.active > a:hover{
+    background-color: transparent;
+    border: none;
+  }
+  .irs-testimonial-two .nav-tabs > li > a, 
+  .irs-testimonial-two .nav-tabs > li > a, 
+  .irs-testimonial-two .nav-tabs > li > a{
+    display: inline-flex;
+  }
+  .list-unstyled.irs-ts-comment{    
+    padding-left: 11px;
+    text-align: left;
+  }
+  .irs-testi-tab.nav-tabs>li{
+    display: inline-block;
+    float: none;
+  }
+  .irs-ts-comment li h4{
+    margin-bottom: 0;
+  }
+
+  /* SOCIAL MEDIA SECOND LAYOUT */
+  .irs-social-media {
+    background-color: #eb553a;
+    padding-bottom: 25px;
+    padding-top: 25px;
+  }
+  .irs-social-media-ttl {
+    color: #fff;
+    padding-right: 50px;
+  }
+  .irs-sm-details ul li {
+    padding: 15px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-right: 20px;
+  }
+  .irs-sm-details ul li a {
+    color: #eb553a;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  /* FOOTER STYLE HOME TWO */
+  .irs-footer-useful-link.style2 h3,
+  .irs-footer-newslatter h3,
+  .irs-footer-latest-news h3,
+  .irs-footer-beteacher h3 {
+    color: #fff;
+    position: relative;
+  }
+  .irs-ftl-bottom::after{
+    background-color: #414141;
+    bottom: -15px;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+  }
+  .irs-footer-newslatter h4 {
+    color: #b6b6b6;
+    margin-top: 50px;
+  }
+  .irs-fbteacher h4 {
+    color: #b6b6b6;
+    line-height: 30px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+  }
+  .irs-footer-newslatter h4 span,
+  .irs-fbteacher h4 span {
+    color: #fff;
+  }
+  .irs-fbteacher a.btn {
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  .irs-nl-details input.form-control {
+    background-color: #272727;
+    border: 1px solid #272727;
+    color: #8b8b8b;
+    height: 40px;
+  }
+  form.irs-newlatter-form {
+    margin-bottom: 25px;
+    margin-top: 30px;
+  }
+  .irs-nl-details a.btn {
+    border-radius: 3px;
+    font-size: 16px;
+    padding: 6px 20px;
+  }
+  .irs-fln-ttl{
+    padding-left: 33%;
+  }
+  p.irs-fln-date {
+    color: #fff;
+  }
+
+  .irs-fln-thumb{
+    overflow: hidden;
+    position: relative;
+  }
+  .irs-fln-thumb .irs-fln-overlay {
+    background-color: rgba(248,190,80, 0.8);
+    text-align: center;
+    transform: scale(0);
+    -webkit-transition: all 0.3s ease-in 0s;
+    -moz-transition: all 0.3s ease-in 0s;
+    -ms-transition: all 0.3s ease-in 0s;
+    -o-transition: all 0.3s ease-in 0s;
+    transition: all 0.3s ease-in 0s;
+  }
+  .irs-fln-thumb .irs-fln-overlay {
+    background-color: rgba(248,190,80, 0.8);
+    border-radius: 5px;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    transform: scale(0);
+    -webkit-transition: all 0.3s ease-in 0s;
+    -moz-transition: all 0.3s ease-in 0s;
+    -ms-transition: all 0.3s ease-in 0s;
+    -o-transition: all 0.3s ease-in 0s;
+    transition: all 0.3s ease-in 0s;
+    z-index: 999;
+    width: 100%;
+  }
+  .irs-fln-details .irs-fln-thumb:hover .irs-fln-overlay {
+    transform: scale(1);
+  }
+  .irs-fln-overlay span{
+    color: #313131;
+    font-size: 20px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 25%;
+  }
+  .irs-fln-details h5 {
+    color: #b6b6b6;
+    margin-top: 0;
+  }
+  .irs-fln-details h5:hover {
+    color: #f8be50;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  /* IRS ALL COURSES STYLE */
+  .irs-all-courses a.btn{
+    border-radius: 5px;
+    color: #313131;
+    font-size: 18px;
+    margin-top: 15px;
+  }
+  .irs-testimonial-two .tab-content {
+    background-color: #fff;
+    margin-bottom: 30px;
+    padding: 5% 17% 5% 15%;
+    position: relative;
+  }
+  .irs-testimonial-two .tab-content::after {
+    border-color: #fff transparent transparent;
+    border-style: solid;
+    border-width: 60px 0 0 55px;
+    bottom: -20%;
+    content: "";
+    left: 48%;
+    position: absolute;
+    transform: skewX(-68deg);
+  }
+  .irs-testimonial-two .irs-tscoment {
+    border-left: 2px solid #ececec;
+    font-size: 18px;
+    line-height: 29px;
+    padding-left: 10%;
+  }  
+  .irs-testi-tab li.active a img{
+    opacity: 1;
+  }
+  .irs-testi-tab li a img{
+    opacity: .5;
+  }
+  .irs-tsc-quto {
+    bottom: 20%;
+    color: #ececec;
+    font-size: 180px;
+    left: 5%;
+    line-height: 30px;
+    position: absolute;
+  }
+
+  /* INNER PAGES START */
+  .irs-ip-breadcrumbs {
+    background-image: url(../images/bg/ip-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
+  .irs-ip-breadcrumbs::before {
+    background-color: rgba(0, 0, 0, 0.8);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  .irs-bc-title {
+    color: #fff;
+    color: font-size: 40px;
+    margin-top: 0;
+  }
+  .irs-bb-right {
+    border-bottom: 1px solid #e8e8e8;
+    margin-bottom: 80px;
+  }
+  .irs-ip-brdcrumb .irs-brdcrmb{
+    padding-bottom: 20px;
+  }
+  .irs-ip-brdcrumb{
+    padding-top: 20px;
+  }
+  .irs-brdcrmb li a {
+    color: #313131;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .irs-brdcrmb li a.active {
+    color: #eb553a;
+  }
+  .irs-courses-shorting-heading{
+    background-color: #efefef;
+    border-radius: 5px;
+    padding: 20px 10px 20px 20px;
+    margin-bottom: 50px;
+  }
+  .irs-courses-shorting-heading .list-inline a{
+    color: #868686;
+    font-size: 16px;
+  }
+  .irs-courses-shorting-heading ul{
+    display: inline;
+  }
+  .irs-nav-search-form input{
+    border-right: transparent;
+    box-shadow: none;
+    height: 35px;
+    width: 45% !important;
+  }
+  .irs-nav-search-form button {
+    border-left: none !important;
+  }
+  .irs-lc-grid.style2{
+    background-color: #f5f5f5;
+    margin-bottom: 70px;
+  }
+  .irs-all-course-bb {
+    border-bottom: 1px solid #ebebeb;
+  }
+  .irs-ip-navigation{
+    margin-top: 30px;
+    margin-bottom: 100px;
+  }
+  .irs-ip-navigation a {
+    background-color: #f8be50;
+    border: medium none;
+    border-radius: 50%;
+    color: #313131;
+    font-size: 15px;
+    margin-right: -5px;
+    padding: 15px 21px;
+  }
+  .irs-ip-navigation a:hover {
+    background-color: #eb553a;
+    color: #fff;
+  }
+  .irs-ip-navigation > li:first-child > span,
+  .irs-ip-navigation > li:last-child > span {
+    background-color: #efefef;
+    border-radius: 50%;
+    padding: 15px 18px;
+  }
+  .irs-ip-navigation > li:first-child > span {
+    margin-right: 10px;
+  }
+  .irs-ip-navigation > li:last-child > span {
+    margin-left: 10px;
+  }
+  .irs-ip-navigation > li:first-child:hover > span,
+  .irs-ip-navigation > li:last-child:hover > span {
+    background-color: #313131;
+    color: #fff;
+    cursor: pointer;
+  }
+  /* SIDEBAR STYLES START HERE */
+  .irs-sb-courses,
+  .irs-sb-lcourses,
+  .irs-sb-bcome-teacher,
+  .irs-sb-lnews{
+    margin-bottom: 50px;
+  }
+  h3.irs-sbc-title,
+  h3.irs-sblc-title,
+  h3.irs-sbln-title {
+    background: #f8be50;
+    line-height: 60px;
+    margin-top: 7px;
+    margin-bottom: 30px;
+  }
+  .irs-sbc-list li.active{
+    background-color: #efefef;
+  }
+  .irs-sbc-list li a{
+    color: #313131;
+    font-size: 16px;
+    line-height: 40px;
+    padding-left: 15px;
+    -webkit-transition: all 0.2s ease-in 0s;
+    -moz-transition: all 0.2s ease-in 0s;
+    -ms-transition: all 0.2s ease-in 0s;
+    -o-transition: all 0.2s ease-in 0s;
+    transition: all 0.2s ease-in 0s;
+  }
+  .irs-sbc-list li a:hover {
+    color: #eb553a;
+  }
+  .irs-sbc-list li a span{
+    padding-right: 15px;
+  }
+  /* sidebar latest. course */
+  .irs-sblc-pack{
+    margin-bottom: 25px;
+  }
+  .irs-sb-lcourses .irs-lc-thumb{
+    float: left;
+    position: relative;
+    overflow: hidden;
+  }
+  .irs-sblc-details{
+    padding-left: 33%;
+  }
+  .irs-sblc-overlay {
+    background-color: rgba(248,190,80, .7);
+    border-radius: 50%;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: scale(0);
+    width: 100%;
+    -webkit-transition: all 0.3s ease-in 0s;
+    -moz-transition: all 0.3s ease-in 0s;
+    -ms-transition: all 0.3s ease-in 0s;
+    -o-transition: all 0.3s ease-in 0s;
+    transition: all 0.3s ease-in 0s;
+  }
+  .irs-sb-lcourses .irs-lc-thumb:hover .irs-sblc-overlay{
+    transform: scale(1);
+  }
+  .irs-sblc-details:hover h5{
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  /* SIDEBAR BECOME A TEACHER */
+  .irs-sb-bcome-teacher {
+    background-color: #efefef;
+    padding: 15px;
+  }
+  .irs-sb-bct-details{
+    border: 3px solid #fff;
+    padding: 40px 30px;
+  }
+  .irs-sb-bct-details a.btn{
+    border-radius: 5px;
+  }
+  /* COURSES LIST */
+  .irs-cl-list{
+    border-bottom: 1px solid #ebebeb;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+  }
+  .irs-cl-list-thumb {
+    overflow: hidden;
+    position: relative;
+  }
+  .irs-cl-list-thumb .irs-cl-overlay {
+    background-color: rgba(248, 190, 80, 0.7);
+    border-radius: 5px;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform: scale(0);
+    -webkit-transition: all 0.3s ease-in 0s;
+    -moz-transition: all 0.3s ease-in 0s;
+    -ms-transition: all 0.3s ease-in 0s;
+    -o-transition: all 0.3s ease-in 0s;
+    transition: all 0.3s ease-in 0s;
+    width: 100%;
+  }
+  .irs-cl-list:hover .irs-cl-overlay{
+    transform: scale(1);
+  }
+  .irs-cl-price {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 15px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+  .irs-cl-teacher-info li{
+    font-size: 16px;
+  }
+  .irs-cl-info{
+    margin-right: 20px;
+  }
+  .irs-cl-details > h3:hover{
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  .irs-cl-details > p{
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 13px;
+  }
+  .irs-cl-details a.btn {
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  .irs-padl-fftn {
+    padding-left: 15px;
+  }
+  .irs-courses-details-title {
+    margin-bottom: 25px;
+    position: relative;
+  }
+  .irs-cdtls-price > p {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    bottom: 20px;
+    color: #fff;
+    font-size: 30px;
+    left: 45px;
+    padding: 10px 20px;
+    position: absolute;
+  }
+  .irs-mrngtp-svnty {
+    margin-top: 70px;
+  }
+  .irs-cdetails-tab .nav.nav-tabs li > a{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    color: #313131;
+    font-size: 24px;
+  }
+  .irs-cdetails-tab .nav.nav-tabs li.active > a{
+    border-bottom: 1px solid;
+    color: #eb553a;
+  }
+  .irs-cdetails-tab .tab-content{
+    margin-top: 40px;
+  }
+  .irs-cdtls-feture-bot{
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+  }
+  .irs-cdtls-feture-bot li a {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color -moz-use-text-color #e8e8e8;
+    border-image: none;
+    border-radius: 0 !important;
+    border-style: none none solid;
+    border-width: medium medium 1px;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 0 auto;
+    width: 95%;
+  }
+  .irs-bbn {
+    border-bottom: none !important;
+  }
+  .irs-courses-dtls-second-para > p {
+    color: #313131;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .irs-mrgntp-thrty {
+    margin-top: 30px;
+  }
+  .irs-cdtls-spara > li {
+    font-size: 18px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+  }
+  .irs-cdtls-spara li span {
+    padding-right: 10px;
+  }
+  .irs-cdtls-tt-title{
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+  }
+  .irs-cdtls-timetsble{
+    background-color: #efefef;
+  }
+  .irs-cdtls-ttbg{
+    font-weight: bold;
+  }
+  .irs-cdtls-ttbg,
+  .irs-cc-tt,
+  .irs-cc-tt {
+    font-size: 18px;
+    line-height: 60px;
+  }
+  .irs-cc-tt2 {
+    color: #313131;
+    font-size: 18px;
+    line-height: 60px;
+  }
+  .irs-cd-listss > li {
+    font-size: 16px;
+    line-height: 24px;
+    list-style-type: square;
+    margin-left: 15px;
+    padding-left: 0;
+  }
+  .irs-cc-tt3 {
+    line-height: 29px;
+    margin-top: 16px;
+  }
+  .irs-firs-exm{
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .irs-padb-twnty {
+    padding-bottom: 20px;
+  }
+  .irs-padb-svnty {
+    padding-bottom: 70px;
+  }
+  .irs-cdtls-feture-bot2{
+    border:1px solid #e8e8e8;
+    padding: 10px;
+  }
+  .irs-cdtls-feture-bot2 ul > li{
+    color: #313131;
+    font-size: 16px;
+  }
+  .irs-cdtls-feture-bot2 ul > li button{
+    border-radius: 5px;
+    color: #313131;
+    font-size: 16px;
+  }
+  .irs-cdtls-feture-bot2 li a{
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color -moz-use-text-color #e8e8e8;
+    border-image: none;
+    border-radius: 0 !important;
+    border-style: none none solid;
+    border-width: medium medium 1px;
+  }
+  .irs-cdtls-feture-bot2 li a:hover .its-tdu{
+    text-decoration: underline;
+  }
+  .irs-courses-td-sngle-dtls {
+    position: relative;
+    padding-bottom: 25px;
+  }
+  .irs-name-tdsd {
+    color: #313131;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .irs-psot-tdsd {
+    color: #808080;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .irs-courses-td-sngle-dtls > p{
+    color: #313131;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .irs-courses-tdetls {
+    display: inline-flex;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .irs-courses-tdetls > li a{
+    border-radius: 3px;
+    font-size: 16px;
+    padding: 5px 10px;
+  }
+  .irs-courses-tdetls > li {
+    -webkit-transition: all 0.3s ease-in 0s;
+    -moz-transition: all 0.3s ease-in 0s;
+    -ms-transition: all 0.3s ease-in 0s;
+    -o-transition: all 0.3s ease-in 0s;
+    transition: all 0.3s ease-in 0s;    
+  }
+  .irs-courses-tdetls > li:hover {
+    margin-top: -10px;
+  }
+  .irs-courses-tdetls li.fbok a{
+    color: #fff !important;
+    background-color: #3b5998;
+  }
+  .irs-courses-tdetls li.twtr a{
+    color: #fff !important;
+    background-color: #1da1f2;
+  }
+  .irs-courses-tdetls li.gplus a{
+    color: #fff !important;
+    background-color: #dc4a38;
+  }
+  .irs-courses-tdetls li.linkdin a{
+    color: #fff !important;
+    background-color: #0077b5;
+  }
+  .irs-courses-tdetls li.fbok a span,
+  .irs-courses-tdetls li.twtr a span,
+  .irs-courses-tdetls li.gplus a span,
+  .irs-courses-tdetls li.linkdin a span{
+    color: #fff;
+  }
+  .irs-course-sd-teacher {
+    border: 1px solid #e8e8e8;
+    padding: 30px 30px 35px 40px;
+    position: relative;
+  }
+  .irs-mrgnbtm-sxty {
+    margin-bottom: 60px;
+  }
+  .irs-courses-tdetls.style2{
+    margin-top: 20px;
+    position: relative;
+  }
+  .irs-tdetails-content > p{
+    color: #313131;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 50px;
+  }
+  .irs-tctt{
+    margin-top: 10px;
+  }
+  .irs-tctt > li {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .irs-courses-td-sngle-dtls.irs-all-course-bb > h2{
+    margin-top: 10px;
+  }
+  .irs-cdtls-ttbg2{
+    padding-bottom: 40px;
+    position: relative;
+  }
+  .irs-cdtls-ttbg2 > h3 {
+    background-color: #efefef;
+    line-height: 60px;
+    padding-left: 30px;
+    margin-bottom: 30px;
+  }
+  .irs-cdtls-ttbg2 em {
+    color: #808080;
+    padding-left: 35px;
+  }
+  .irs-mrgnbtm-ffty {
+    margin-bottom: 50px;
+  }
+  .irs-td-carousel .owl-nav {
+    position: absolute;
+    right: 15px;
+    top: -35px;
+    z-index: 2147483647;
+  }
+  .irs-td-carousel .owl-nav .owl-prev,
+  .irs-td-carousel .owl-nav .owl-next {
+    background-color: transparent;
+    color: #313131;
+  }
+  .irs-td-carousel .owl-nav .owl-prev:hover,
+  .irs-td-carousel .owl-nav .owl-next:hover {
+    background-color: transparent;
+    color: #eb553a;
+  }
+  .irs-table-deading {
+    background-color: #f8be50;
+    color: #313131;
+    font-size: 18px;
+  }
+  .irs-table-deading > th {
+    font-weight: 400;
+  }
+  .irs-table-body th {
+    font-weight: 400;
+    text-align: center;
+  }
+  .irs-table-body td {
+    font-size: 16px;
+  }
+  /* BECOME A TEACHER STYLE */
+  
+  .irs-ip-breadcrumbs.irs-bc-teacher {
+    background-image: url(../images/bg/bcome-teacher-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+  .irs-bc-teacher-ttl{
+    margin-bottom: 50px;
+  }
+  .irs-bc-teacher-ttl h2{
+    background: #f8be50 none repeat scroll 0 0;
+    margin: 0 auto 40px;
+    width: 48%;
+  }
+  .irs-bc-teacher-ttl > p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .irs-mrgntp-hndrd {
+    margin-top: 100px;
+  }
+  .irs-mrgnbtm-twnty {
+    margin-bottom: 20px;
+  }  
+  .irs-cdtls-spara.style2 > li {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+  }  
+  .irs-bc-teacher-form {
+    background-color: #f6f6f6;
+    padding: 50px 30px 40px;
+  }
+  .irs-bc-teacher-form > h2 {
+    background-color: #f8be50;
+    margin: 0 auto 35px;
+    width: 90%;
+  }
+  .irs-bc-teacher-form input {
+    background-color: #ebebeb;
+    box-shadow: none;
+    height: 40px;
+  }
+  .irs-bc-teacher-form textarea {
+    background: #ebebeb none repeat scroll 0 0;
+    box-shadow: none;
+  }
+  .irs-bctja-form {
+    background: transparent none repeat scroll 0 0 !important;
+  }
+  .irs-bc-teacher-form.text-center > p{
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  .irs-bc-teacher-form form button {
+    margin-top: 20px;
+  }
+  .irs-table-body.style2 th {
+    padding-left: 30px;
+    text-align: left;
+  }
+  .irs-mrgntp-eighty {
+    margin-top: 80px;
+  }
+  .irs-cdtls-ttbg2.style2 em {
+    color: #808080;
+    padding-left: 0;
+  }
+  .irs-table-deading.style2 > th:first-child{
+    padding-left: 30px;
+  }
+  .irs-cdtls-ttbg2.style2 {
+    border-bottom: 1px solid #e8e8e8;
+    overflow: hidden;
+  }
+  .irs-careerar-contact-info a.btn{
+    border-radius: 10px;
+    font-size: 18px;
+    margin-top: 15px;
+  }
+  /* FAQ PAGE STYLES */
+  .irs-ip-faq-ttl > h2{
+    background-color: #f8be50;
+    margin: 0 auto 40px;
+    width: 65%;
+  }
+  .irs-ip-faq-ttl > p {
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+  .irs-faq-title-one > h3,
+  .irs-faq-title-two > h3 {
+    border-bottom: 1px solid #e8e8e8;
+    margin-bottom: 30px;
+    padding-bottom: 12px;
+  }
+  .irs-contact-form-ip input {
+    background-color: #f6f6f6;
+    box-shadow: none;
+    color: #8a8a8a;
+    font-size: 16px;
+    height: 40px;
+  }
+  .irs-contact-form-ip textarea {    
+    background-color: #f6f6f6;
+    box-shadow: none;
+    font-size: 16px;
+  }
+  .irs-contact-form-ip {
+    margin-top: 50px;
+  }
+  .irs-contact-form-ip > h2 {
+    margin-bottom: 30px;
+  }
+  .irs-contact-form-ip button {
+    font-size: 18px;
+  }
+  /* BLOG INNER PAGE DETAILS */
+  .irs-blog-post-thumb{
+    margin-bottom: 25px;
+    position: relative;
+  }
+  .irs-blog-post-meta li a{
+    font-size: 16px;
+  }
+  .irs-colrdaek {
+    color: #313131;
+  }
+  .irs-blog-post-ip{
+    margin-bottom: 70px;
+  }
+  .irs-blog-post-ip:hover .irs-blog-post-title > h3{
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  .irs-blog-post-ip.style2 {
+    border: 1px solid #e8e8e8;
+    padding: 40px 0 40px 30px;
+  }
+  .irs-blog-post-detailss > p {
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+  .irs-blog-post-detailss button {
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+  .irs-img-post-slider .owl-controls .owl-dot > span {
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: 5px;
+  }
+  .irs-img-post-slider .owl-controls .owl-dot > span:hover,
+  .irs-img-post-slider .owl-controls .owl-dot > span:active,
+  .irs-img-post-slider .owl-controls .owl-dot > span:focus {
+    background-color: #f8be50;
+  }
+  .irs-img-post-slider .owl-controls .owl-dot.active > span {
+    background-color: #f8be50;
+  }
+  .irs-img-post-slider .owl-controls {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+  }
+  .irs-img-post-sliders2 .owl-controls .owl-nav .owl-prev {
+    position: absolute;
+    left: 10%;
+    top: 40%;
+  }
+  .irs-img-post-sliders2 .owl-controls .owl-nav .owl-next {
+    background-color: #fff;
+    border-radius: 5px;
+    color: #313131;
+    font-size: 40px;
+    padding: 5px 10px;
+    position: absolute;
+    right: 10%;
+    top: 35%;
+    -webkit-transition: all 0.3s ease-in 0s;
+    -moz-transition: all 0.3s ease-in 0s;
+    -ms-transition: all 0.3s ease-in 0s;
+    -o-transition: all 0.3s ease-in 0s;
+    transition: all 0.3s ease-in 0s;   
+  }
+  .irs-img-post-sliders2 .owl-controls .owl-nav .owl-prev {
+    background-color: #fff;
+    border-radius: 5px;
+    color: #313131;
+    font-size: 40px;
+    padding: 5px 10px;
+    position: absolute;
+    left: 10%;
+    top: 35%;
+    -webkit-transition: all 0.3s ease-in 0s;
+    -moz-transition: all 0.3s ease-in 0s;
+    -ms-transition: all 0.3s ease-in 0s;
+    -o-transition: all 0.3s ease-in 0s;
+    transition: all 0.3s ease-in 0s;   
+  }
+  .irs-img-post-sliders2 .owl-controls .owl-nav .owl-next:hover,
+  .irs-img-post-sliders2 .owl-controls .owl-nav .owl-prev:hover {
+    background-color: #eb553a !important;
+    color: #fff;
+  }
+  .irs-blog-post-meta.style2 {
+    margin-bottom: 40px;
+  }
+  .irs-active-link {
+    text-decoration: underline;
+  }
+  .irs-active-link:hover {
+    cursor: pointer;
+  }
+  .irs-blog-sdetails > p:first-child {
+    margin-bottom: 30px;
+  }
+  .irs-blog-sdetails > p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .irs-mrgntop-ffty{
+    margin-top: 50px;
+  }
+  .irs-blog-post-detailss blockquote {
+    border-left: 5px solid #eb553a;
+    margin-left: 50px;
+  }
+  .irs-bp-atag {
+    margin-top: 25px;
+  }
+  .irs-bp-atag .irs-courses-tdetls > li a {
+    padding: 7px 10px;
+  }
+  .irs-blog-post-author .irs-courses-tdetls > li a {
+    padding: 7px 10px;
+  }
+  .irs-blog-post-author .irs-courses-tdetls {
+    position: relative;
+  }
+  .irs-blog-post-author .irs-social-icon-td-sngle-dtls {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .irs-bp-author img {
+    margin-top: 4px;
+  }  
+  .irs-name-tdsd.style2 {
+    color: #313131;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .irs-psot-tdsd.style2 {
+    color: #808080;
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .irs-blog-post-author {
+    background-color: #efefef;
+    border-radius: 5px;
+    padding: 20px 30px;
+  }
+  .irs-courses-td-sngle-dtls.style2 {
+    margin-top: -20px;
+  }
+  .irs-bps-prev > p,
+  .irs-bps-next > p {
+    color: #808080;
+    font-size: 16px;
+  }
+  .irs-bps-prev:hover > h3,
+  .irs-bps-next:hover > h3 {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  .irs-bps-prev > h3,
+  .irs-bps-next > h3 {
+    margin-top: 0;
+  }
+  .irs-bps-title {
+    background-color: #f8be50;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    width: 30%;
+  }
+  .irs-bp-ttl > h4 {
+    font-weight: bold;
+  }
+  .irs-bp-detailss ul > li {
+    font-size: 16px;
+    margin-right: 13px;
+  }
+  /* CONTACT PAGE STYLE */
+  .irs-contact {
+    padding-bottom: 100px;
+    padding-top: 100px;
+  }
+  .irs-contact-detail {
+    background-color: #313131;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    padding: 50px 30px;
+  }
+  .irs-contact-title {
+    border-bottom: 1px solid #4e4e4e;
+    color: #ffffff;
+    padding-bottom: 10px;
+  }
+  .irs-contect-address > li {
+    border-left: 2px solid transparent;
+    color: #b3b3b3;
+    font-size: 18px;
+    line-height: 35px;
+    padding-left: 15px;
+    -webkit-transition: all 0.3s ease-in 0s;
+    -moz-transition: all 0.3s ease-in 0s;
+    -ms-transition: all 0.3s ease-in 0s;
+    -o-transition: all 0.3s ease-in 0s;
+    transition: all 0.3s ease-in 0s;  
+  }
+  .irs-contect-address > li:hover {
+    border-left: 2px solid #f8be50;
+    color: #fff;
+    cursor: pointer;
+  }
+  .irs-cf-title {
+    border-bottom: 1px solid #4e4e4e;
+    color: #fff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  .irs-contact-formed {
+    margin-bottom: 35px;
+  }
+  .irs-contact-formed input {
+    background-color: #4e4e4e;
+    border: 1px solid;
+    box-shadow: none;
+    font-size: 16px;
+    height: 40px;
+  }
+  .irs-contact-formed textarea {
+    background-color: #4e4e4e;
+    border: 1px solid;
+    font-size: 16px;
+  }
+  .irs-cp-follow {
+    border-bottom: 1px solid #4e4e4e;
+    color: #fff;
+    padding-bottom: 10px;
+  }
+  /* EVENT PAGE */
+  .irs-event-dbthumb img {
+    margin-bottom: 50px;
+  }
+  .irs-event-dbox {
+    border: 1px solid #e8e8e8;
+    padding: 20px;
+    margin-top: 10px;
+  }
+  .irs-event-dbox table tr td:last-child {
+    text-align: right;
+  }
+  .irs-event-dbox table tr td{
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .irs-event-dbox table tr {
+    border-top: 2px solid transparent;
+  }
+  .irs-bb-styl2{
+    border-bottom: 2px solid #e8e8e8;
+  }
+  .irs-ed-title {
+    border-bottom: 1px solid #e8e8e8;
+    margin-top: 0;
+    padding-bottom: 10px;
+  }
+  .irs-event-description > p {
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 15px;
+  }
+  .irs-event-description.style2 {
+    margin-top: 25px;
+  }
+  .irs-event-description.style2 ul > li {
+    display: flex;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  .irs-event-description.style2 ul > li span {
+    padding-right: 12px;
+  }
+  .irs-event-details-carousel{
+    margin-top: 30px;
+  }
+  .irs-event-details-carousel .item{
+    margin: 0 -5px;
+  }
+  .irs-event-details-carousel .item {
+    margin: 0 -2px;
+    text-align: center;
+  }
+  .irs-event-details-carousel .owl-nav {
+    bottom: 32.5%;
+    position: absolute;
+    right: 2%;
+  }
+  .irs-event-details-carousel .owl-prev,
+  .irs-event-details-carousel .owl-next {
+    background: transparent none repeat scroll 0 0 !important;
+  }
+  .irs-event-details-carousel .owl-prev i,
+  .irs-event-details-carousel .owl-next i {
+    color: #313131;
+  }
+  .irs-event-details-carousel .owl-prev:hover i,
+  .irs-event-details-carousel .owl-next:hover i {
+    color: #eb553a;
+  }
+  .irs-edp-main-title {
+    margin-bottom: 20px;
+  }
+  .irs-edp-main-title a.btn {
+    border-radius: 5px;
+    color: #313131;
+    font-size: 14px;
+    margin-left: 15px;
+    margin-top: -10px;
+    padding: 5px 10px;
+  }
+  .no-hover:hover {
+    margin-top: 0 !important;
+  }
+  .irs-ticket-buy {
+    background-color: #313131;
+  }
+  .irs-ticket-header {
+    background-color: #f8be50;
+  }
+  .irs-ticket-details {
+    padding-bottom: 40px;
+    padding-left: 25px;
+    padding-right: 20px;
+  }
+  .irs-ticket-details ul > li {
+    border-bottom: 1px solid #464646;
+    color: #fff;
+    font-size: 16px;
+    line-height: 50px;
+    padding-right: 15px;
+  }
+  .irs-ticket-details ul li .ticket-price {
+    color: #acacac;
+    float: right;
+  }
+  .irs-bb-none {
+    border-bottom: none !important;
+  }
+  .irs-ticket-details ul > li:last-child {
+    border-bottom: medium none;
+  }
+  .irs-ticket-button a.btn {
+    font-size: 16px;
+    margin-top: 30px;
+    padding: 8px 25px;
+  }
+
+
+  
+  .irs-copy-right {
+    padding-bottom: 20px;
+    padding-top: 30px;
+    text-align: center;
+  }
